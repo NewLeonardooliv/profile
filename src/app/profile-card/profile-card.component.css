@@ -4,7 +4,7 @@
   border-radius: 10px;
   padding: 20px;
   text-align: center;
-  box-shadow: 0px 20px 40px rgba(146, 255, 255, 0.2);
+  box-shadow: 0px 0px 20px rgba(146, 255, 255, 0.2);
 }
 
 .profile-picture {
@@ -66,7 +66,7 @@ button:hover {
 }
 
 .form {
-  margin: 1rem 0;
+  margin: 5rem 0;
   display: flex;
   justify-content: center;
 }
