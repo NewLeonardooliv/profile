@@ -1,0 +1,13 @@
+<div *ngIf="username" class="card">
+  <img [src]="avatar" alt="Profile Picture" class="profile-picture">
+  <h2>{{ name }}</h2>
+  <p>{{ description }}</p>
+  <a href="{{ github }}" target="_blank">Github</a>
+  <a href="{{ portfolio }}" target="_blank">Portfólio</a>
+  <a href="{{ linkedin }}" target="_blank">LinkedIn</a>
+</div>
+
+<div class="form">
+  <input type="text" [(ngModel)]="username" placeholder="Digite o nome de usuário do GitHub">
+  <button (click)="getProfile()">Buscar</button>
+</div>
